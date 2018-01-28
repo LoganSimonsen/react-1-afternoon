@@ -4,11 +4,13 @@ import FilterObject from '../Topics/FilterObject'
 import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
 import Sum from '../Topics/Sum'
+import Info from '../Topics/Info'
 
 export default class TopicBrowser extends Component {
   render() {
     return (
       <div>
+        <Info />
         <EvenAndOdd />
         <FilterObject />
         <FilterString />

@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  padding-left: 15px;
+  font-family: calibre;
   background-color: #303030;
   display: flex;
   justify-content: center;
@@ -29,55 +30,41 @@ body {
 }
 
 .evenAndOddPB {
-  height: 380px;
+  height: 320px;
 }
 .evenAndOddPB:hover {
-  zoom: 1.1;
-  margin: 0;
+
 }
 
 .filterObjectPB {
-  height: 380px
+  height: 320px;
 }
-.filterObjectPB:hover {
-  zoom: 1.1;
-  margin: 0;
-}
+
 
 .filterStringPB {
-  height: 380px;
-}
-.filterStringPB:hover {
-  zoom: 1.1;
-  margin: 0;
+  height: 320px;
 }
 
+
 .palindromePB {
-  height: 380px;
+  height: 320px;
   
   
-}
-.palindromePB:hover {
-  zoom: 1.1;
-  margin: 0;
 }
 
 .sumPB {
-  height: 380px;
+  height: 320px;
 }
-.sumPB:hover {
-  zoom: 1.1;
-  margin: 0;
-}
+
 
  .resultsBox {
   width: 360px;
   height: 18px;
   padding: 4px;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #303030;
   /* margin-top: 0px; */
-  font-family: Roboto;
+  font-family: calibre;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -91,7 +78,7 @@ body {
   border-radius: 2px;
   background-color: #303030;
   /* margin-top: 10px; */
-  font-family: Roboto;
+  font-family: calibre;
   font-size: 16px;
   line-height: 1.5;
   color: rgb(255, 52, 52);
@@ -99,7 +86,8 @@ body {
 }
 
 .filterObjectRB {
-  height: 95px;
+  height: 40px;
+  font-size: 12px;
 }
 
 .filterStringRB {
@@ -108,31 +96,32 @@ body {
 
 .inputLine {
   width: 300px;
-  height: 15px;
+  height: 18px;
   font-size: 18px;
   color: #fff;
   padding-bottom: 6px;
   border: none;
-  border-bottom: solid 1px #3fbaf9;
+  border-bottom: dashed 1px #43a6d4;
   outline: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: transparent;
+  background: #303030;
   margin-bottom: 20px;
+  vertical-align: text-bottom;
 }
 
 
 /* Buttons */
 
 .confirmationButton {
-  width: 380px;
+  width: 360px;
   height: 36px;
-  border-radius: 2px;
-  background-color: #4fc3f7;
+  border-radius: 5px;
+  background-color: #43a6d4;
   border: none;
-  font-family: Roboto;
+  font-family: calibre;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
@@ -143,18 +132,20 @@ body {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
 }
 
+
+
 /* Text */
 h4 {
-  font-family: Roboto;
+  font-family: calibre;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.4;
+  /* line-height: 1.4; */
   color: #ffffff;
   margin-top: 15px;
 }
 
 .puzzleText {
-  font-family: Roboto;
+  font-family: calibre;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -163,4 +154,8 @@ h4 {
   letter-spacing: normal;
   color: #ffffff;
   margin-bottom: 35px;
+}
+
+#DMimage {
+  zoom: .25;
 }

@@ -35,8 +35,8 @@ export default class EvenAndOdd extends Component {
   render() {
     return (
       <div className="puzzleBox evenAndOddPB">
-        <h4> Evens and Odds </h4>
-        <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value) }></input>
+        <h4> Evens and Odds </h4><br/><p>Seperate numbers with commas.</p><br/>
+        <input className="inputLine" onChange={ (e) => this.handleChange(e.target.value)} placeholder="1,2,3,4,5,6,7,8,9"></input>
         <button className="confirmationButton" onClick={ () => { this.assignEvenAndOdds(this.state.userInput) }}> Split </button>
         <span className="resultsBox"> Evens: { JSON.stringify(this.state.evenArray) } </span>
         <span className="resultsBox"> Odds: { JSON.stringify(this.state.oddArray) } </span>
